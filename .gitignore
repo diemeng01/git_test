@@ -1,0 +1,19 @@
+# 忽略特定文件
+secret.txt
+temp.log
+
+# 忽略整个文件夹（及其所有内容）
+node_modules/
+__pycache__/
+.idea/
+.vscode/
+
+# 忽略所有 .tmp 结尾的文件
+*.tmp
+
+# 忽略以 ~ 结尾的备份文件
+*~
+
+# 忽略系统文件（Windows）
+Thumbs.db
+desktop.ini
