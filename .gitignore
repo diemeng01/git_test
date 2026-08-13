@@ -38,3 +38,15 @@ debug.log
 
 # 系统文件（macOS）
 .DS_Store
+
+# ===== 生成/产物文件（仅提交代码，以下一律不提交）=====
+# 数据产物（可由 spider.py / app.py 重新生成）
+movies.csv
+movies.db
+
+# 数据分析图表产物
+02_movie_analysis/*.png
+02_movie_analysis/movies_analysis.html
+
+# 游戏运行时自动生成的资源（首次运行自动生成）
+05_plane_war/assets/
