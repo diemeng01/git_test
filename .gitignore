@@ -1,6 +1,8 @@
 # 忽略特定文件
 secret.txt
 temp.log
+password.txt
+
 
 # 忽略整个文件夹（及其所有内容）
 node_modules/
