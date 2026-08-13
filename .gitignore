@@ -19,3 +19,22 @@ __pycache__/
 # 忽略系统文件（Windows）
 Thumbs.db
 desktop.ini
+
+# Python 编译缓存与虚拟环境
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# 打包构建产物（可用 README 中的命令重新生成）
+build/
+dist/
+
+# 游戏存档与运行日志（用户本地数据）
+highscore.txt
+error.log
+debug.log
+
+# 系统文件（macOS）
+.DS_Store
